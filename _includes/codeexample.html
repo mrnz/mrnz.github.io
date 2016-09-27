@@ -1,7 +1,21 @@
 <div class="example">
 <p class="example-header">{{ include.title }}</p>
 <pre class="example-body">
-<code>{% highlight css %}
-{{ include.code }}{% endhighlight %}</code>
+<code>
+{{ include.code }}</code>
 </pre>
 </div>
+
+{% highlight ruby %}
+def foo
+  puts 'foo'
+end
+{% endhighlight %}
+
+
+
+{% highlight css %}
+html .sss #cl{
+	background: red;
+}
+{% endhighlight %}
