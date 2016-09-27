@@ -1,9 +1,13 @@
 .example{
-	height: 100px;
+	display: block;
+	border: black 1px solid;	
+	border-radius: 2px;
+	background-color: #039;
+	color: #eee;
 }
 .example-header{
-	bottom: red;
+	padding: 0px 2%;
 }
 .example-body{
-	background: blue;
+	background: black;
 }
