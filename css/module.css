@@ -5,10 +5,10 @@
 	background-color: #039;
 	color: #eee;
 }
-.example-header{
+.example .example-header{
 	padding: 0px 2%;
 }
-.example-body{
+.example .example-body{
 	background: black;
 	padding: 0 2%;
   margin: 0px;
