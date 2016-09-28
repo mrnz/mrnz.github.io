@@ -9,9 +9,14 @@ date: 2016-09-28
 
 <p>These are my notes from video tutorial <a href="https://vimeo.com/101718785">"Effortless Style"</a> by Heydon Pickering on Vimeo</p>
 
+<p>Two things ware very inreresting to me</p>
+
+<p>First one is a wee experiment which shows that it is possible to use two fonts in one tag - without any additional tags like SPAN. 
+See example below: </p>
+
 <h2 class="experiment">Experiment & fun</h2>
 
-<p>This is my quick experiment to check how we can use two fonts in one tag - without any additional tags like SPAN</p>
+
 
 <div class="example">
 	<p class="example-header">Examples of Base rules</p>
