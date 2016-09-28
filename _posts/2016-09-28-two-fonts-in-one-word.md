@@ -18,7 +18,7 @@ See example below: </p>
 
 <h2 class="experiment">Experiment & fun</h2>
 
-<p>To achive this effect we need to import google fonts. One of them with additional query parameter - "text". This does that font deliver to us is just a subset, in this case it only contains one character. Then in css we can use our normal font stuck like that:</p>
+<p>To achive this effect we need to import google fonts. One of them with additional query parameter - "text". This does that font deliver to us is just a subset, in this case it only contains one character. Then in css we can use our normal font stack like that:</p>
 
 <p>font-family: Lobster, 'Indie Flower'</p>
 
