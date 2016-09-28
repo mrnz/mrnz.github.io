@@ -46,12 +46,13 @@ See example below: </p>
 .ex-wrap{
 	position: relative;
 	width: 300px;
+	height: 120px;
 }
 .ex-wrap div{
   position: relative;
   float: left;
-  width: (100% / 5);
-  height: (300px / 5);
+  width: calc(100% / 5);
+  height: calc(300px / 5);
   background: black;
   border: green 1px solid;
   box-sizing: border-box;
