@@ -39,8 +39,34 @@ See example below: </p>
 
 <h2>Second</h2>
 
-<p>interesting thing is a way how we can us CSS without any classes or tags. This is very important when we don't have control on HTML.
- Let's say that we have grid with fixed number of elements in a row which is 5. The problem with styling starts when a total number of elements is 9, 8, 7 or 6 and we want cover whole squer / grid. How we can style this grid independently from this number which can change without our knowledge. The solution is brilliant and very informative</p>
+<p>interesting thing is a way how we can us CSS without any classes or ID's. This is very important when we don't have control on HTML.
+ Let's say that we have grid with fixed number of elements in a row which is 5. </p>The problem with styling begins when the total number of elements in our grid is not evenly divisible by the fixed number of elements in a row and we want cover whole squer / grid. How we can style this grid independently from this number which can change without our knowledge. The solution is brilliant and very informative</p>
+
+<style>
+.ex-wrap{
+	position: relative;
+	width: 300px;
+}
+.ex-wrap div{
+  position: relative;
+  float: left;
+  width: (100% / 5);
+  height: (300px / 5);
+  background: black;
+  border: green 1px solid;
+  box-sizing: border-box;
+}
+</style>
+<div class="ex-wrap">
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+</div>
+
 
 <p class="sassmeister" data-gist-id="dbbdf12e4af675e6dde6d98838f4fb0a" data-height="480" data-theme="monokai"><a href="http://sassmeister.com/gist/dbbdf12e4af675e6dde6d98838f4fb0a">Play with this gist on SassMeister.</a></p><script src="http://cdn.sassmeister.com/js/embed.js" async></script>
 
