@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "How to use two fonts in one HTLM tag"
+title: "Effortless Style by Heydon Pickering"
 date: 2016-09-28
 ---
 
