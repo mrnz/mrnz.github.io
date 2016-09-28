@@ -441,6 +441,17 @@ body {
     margin: 60px auto;
     width: 70%;
 }
+nav {
+  position: fixed;
+  top: 0px;
+  background: #fff;
+  width: 100%;
+  left: 0px;
+  box-sizing: border-box;
+  padding: 0 15%;
+  border-bottom: gray 1px solid;
+}
+
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
