@@ -11,16 +11,18 @@ date: 2016-09-28
 
 <p>Two things ware very inreresting to me.</p>
 
-<p>First one is a wee experiment which shows that it is possible to use two fonts in one tag - without any additional tags like SPAN. 
+<h2>First one</h2>
+
+<p>is a wee experiment which shows that it is possible to use two fonts in one tag - without any additional tags like SPAN. 
 See example below: </p>
 
 <h2 class="experiment">Experiment & fun</h2>
 
-<p>To achive this effect we need to import google fonts. One of them with additional query parameter - "text". This does that font deliver to us is just a subset, in this case it only contains one character. Then in css we can use our normal font stuck lik that:</p>
+<p>To achive this effect we need to import google fonts. One of them with additional query parameter - "text". This does that font deliver to us is just a subset, in this case it only contains one character. Then in css we can use our normal font stuck like that:</p>
 
 <p>font-family: Lobster, 'Indie Flower'</p>
 
-<p>This mainly means: render first font for everything what first font is able to render - this case only one chatracter "&" and then fallback for everything on second font. Of course, this stack can be longer. This is a full example: </p>
+<p>This mainly means: render first font for everything what first font is able to render - this case only one chatracter "&" and then fallback for everything on second font. Of course, this stack can be longer. Here's a full example: </p>
 
 
 <div class="example">
@@ -34,6 +36,15 @@ See example below: </p>
 }{% endhighlight %}
 	</div>
 </div>
+
+<h2>Second one</h2>
+
+<p>interesting thing is a way how we can us CSS without any classes or tags. This is very important when we don't have control on HTML.
+ Let say that we have grid with fixed number of elements in a row. let say it is 5. But what when a total number of elements is 9, 8, 7 or 6. How we can style this grid independently from this number which can change without our knowledge.</p>
+
+
+
+
 
 <p class="sassmeister" data-gist-id="dbbdf12e4af675e6dde6d98838f4fb0a" data-height="580" data-theme="monokai"><a href="http://sassmeister.com/gist/dbbdf12e4af675e6dde6d98838f4fb0a">Play with this gist on SassMeister.</a></p><script src="http://cdn.sassmeister.com/js/embed.js" async></script>
 
