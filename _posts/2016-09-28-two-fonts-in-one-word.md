@@ -9,21 +9,25 @@ date: 2016-09-28
 
 <p>These are my notes from video tutorial <a href="https://vimeo.com/101718785">"Effortless Style"</a> by Heydon Pickering on Vimeo</p>
 
-<p>Two things ware very inreresting to me</p>
+<p>Two things ware very inreresting to me.</p>
 
 <p>First one is a wee experiment which shows that it is possible to use two fonts in one tag - without any additional tags like SPAN. 
 See example below: </p>
 
 <h2 class="experiment">Experiment & fun</h2>
 
+<p>To achive this effect we need to import google fonts. One of them with additional query parameter - "text". This does that font deliver to us is just a subset, in this case it only contains one character. Then in css we can use our normal font stuck lik that:</p>
+
+<p>font-family: Lobster, 'Indie Flower'</p>
+
+<p>This mainly means: render first font for everything what first font is able to render - this case only one chatracter "&" and then fallback for everything on second font. Of course, this stack can be longer. This is a full example: </p>
 
 
 <div class="example">
-	<p class="example-header">Examples of Base rules</p>
+	<p class="example-header">Two fonts in one tag</p>
 	<div class="example-body">
 {% highlight css %}@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
 @import url('https://fonts.googleapis.com/css?family=Lobster&text=%26');
-
 
 .experiment{
 	font-family: Lobster, 'Indie Flower';
