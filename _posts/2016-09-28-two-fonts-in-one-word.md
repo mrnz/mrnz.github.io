@@ -44,5 +44,5 @@ See example below: </p>
 
 <p class="sassmeister" data-gist-id="dbbdf12e4af675e6dde6d98838f4fb0a" data-height="480" data-theme="monokai"><a href="http://sassmeister.com/gist/dbbdf12e4af675e6dde6d98838f4fb0a">Play with this gist on SassMeister.</a></p><script src="http://cdn.sassmeister.com/js/embed.js" async></script>
 
-<p>Play with this gist <a href="http://www.sassmeister.com/gist/dbbdf12e4af675e6dde6d98838f4fb0a">HERE</a> and delete or add divs in .wrapper.</p>
+<p>Play with this gist <a href="http://www.sassmeister.com/gist/dbbdf12e4af675e6dde6d98838f4fb0a">HERE</a> and delete or add divs in .wrapper. You can also cange SASS variable $cols and observe changes. That is COOL!</p>
 
