@@ -67,10 +67,7 @@ See example below: </p>
 	<div></div>
 </div>
 
-  <p>How we can style this grid independently from this number which can change without our knowledge. The solution is brilliant and very informative</p>
-
-
-
+<p>How we can style this grid independently from this number which can change without our knowledge. The solution is brilliant and very informative</p>
 
 <p class="sassmeister" data-gist-id="dbbdf12e4af675e6dde6d98838f4fb0a" data-height="480" data-theme="monokai"><a href="http://sassmeister.com/gist/dbbdf12e4af675e6dde6d98838f4fb0a">Play with this gist on SassMeister.</a></p><script src="http://cdn.sassmeister.com/js/embed.js" async></script>
 
