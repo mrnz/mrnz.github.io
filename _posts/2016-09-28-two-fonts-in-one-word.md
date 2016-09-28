@@ -11,9 +11,9 @@ date: 2016-09-28
 
 <p>Two things ware very inreresting to me.</p>
 
-<h2>First one</h2>
+<h2>First</h2>
 
-<p>is a wee experiment which shows that it is possible to use two fonts in one tag - without any additional tags like SPAN. 
+<p>one is a wee experiment which shows that it is possible to use two fonts in one tag - without any additional tags like SPAN. 
 See example below: </p>
 
 <h2 class="experiment">Experiment & fun</h2>
@@ -37,15 +37,12 @@ See example below: </p>
 	</div>
 </div>
 
-<h2>Second one</h2>
+<h2>Second</h2>
 
 <p>interesting thing is a way how we can us CSS without any classes or tags. This is very important when we don't have control on HTML.
- Let say that we have grid with fixed number of elements in a row. let say it is 5. But what when a total number of elements is 9, 8, 7 or 6. How we can style this grid independently from this number which can change without our knowledge.</p>
+ Let's say that we have grid with fixed number of elements in a row which is 5. Problem witch styling starts when a total number of elements is 9, 8, 7 or 6 and we want cover whole squer / grid. How we can style this grid independently from this number which can change without our knowledge. The solution is brilliant and very informative</p>
 
-
-
-
-
+ 
 <p class="sassmeister" data-gist-id="dbbdf12e4af675e6dde6d98838f4fb0a" data-height="580" data-theme="monokai"><a href="http://sassmeister.com/gist/dbbdf12e4af675e6dde6d98838f4fb0a">Play with this gist on SassMeister.</a></p><script src="http://cdn.sassmeister.com/js/embed.js" async></script>
 
 
