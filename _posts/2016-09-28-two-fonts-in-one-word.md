@@ -9,7 +9,7 @@ date: 2016-09-28
 
 <p>These are my notes from video tutorial <a href="https://vimeo.com/101718785">"Effortless Style"</a> by Heydon Pickering on Vimeo</p>
 
-<p>Two things ware very inreresting to me.</p>
+<p>Two things were very interesting to me.</p>
 
 <h2>First</h2>
 
@@ -18,11 +18,11 @@ See example below: </p>
 
 <h2 class="experiment">Experiment & fun</h2>
 
-<p>To achive this effect we need to import google fonts. One of them with additional query parameter - "text". This does that font deliver to us is just a subset, in this case it only contains one character. Then in css we can use our normal font stack like that:</p>
+<p>To achieve this effect we need to import google fonts. One of them with additional query parameter - "text". This makes that font deliver to us is just a subset, in this case it only contains one character. Then in the css we can use our normal font stack like this:</p>
 
 <p>font-family: Lobster, 'Indie Flower'</p>
 
-<p>This mainly means: render first font for everything what first font is able to render - this case only one chatracter "&" and then fallback for everything on second font. Of course, this stack can be longer. Here's a full example: </p>
+<p>This mainly means: render first font for everything what first font is able to render - this case only one chatracter "&" and then fallback for everything on second font. Of course, this stack can be longer. Here is the complete examples: </p>
 
 
 <div class="example">
