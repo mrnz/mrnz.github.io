@@ -1,0 +1,30 @@
+#game {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+#game table {
+    margin: 0 auto;
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+#game td {
+    border: 1px solid gray;
+}
+
+#game #grid input[type="checkbox"] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    display: block;
+    width: 20px;
+    height: 20px;
+    background: yellow;
+}
+
+#game #grid input[type="checkbox"]:checked {
+    background: black;
+}
