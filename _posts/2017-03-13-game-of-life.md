@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Effortless Style by Heydon Pickering"
-date: 2016-09-28
+title: "Game of Life"
+date: 2017-03-13
 ---
 
 <link rel="stylesheet" type="text/css" href="/css/game-of-life.css">
