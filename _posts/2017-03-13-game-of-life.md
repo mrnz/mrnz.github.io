@@ -7,7 +7,6 @@ date: 2017-03-13
 <link rel="stylesheet" type="text/css" href="/css/game-of-life.css">
 
 <div id="game">
-    <h1>Conway's Game of Life</h1>
     <table id="grid"></table>
     <div id="info">
         Generation: <span id="generations"></span>
@@ -26,6 +25,7 @@ date: 2017-03-13
         </label>
     </div>
 </div>
+
 <script type="text/javascript" src="/js/game-of-life.js"></script>
 
 
