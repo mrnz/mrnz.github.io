@@ -49,6 +49,7 @@
 
 #game div.buttons {
     margin-top: 5px;
+    margin-bottom: 10px;
 }
 
 #game button#next {
@@ -122,7 +123,6 @@
 
 #game #info {
     margin-top: 5px;
-    margin-bottom: 10px;
     font-family: monospace;
     font-size: 12px;
     text-transform: full-width;
