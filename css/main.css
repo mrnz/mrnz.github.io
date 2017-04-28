@@ -438,8 +438,7 @@ textarea {
 
 
 body {
-    margin: 60px auto;
-    width: 70%;
+    margin: 65px 0 0 0;
     background-color: #EFEEEB;
     color: #333;
 }
@@ -474,6 +473,11 @@ a:hover {
 h1 {
     font-size: 3em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
+}
+.container {
+    width: 70%;
+    margin: 0 auto;
+    position: relative;
 }
 
 footer {
