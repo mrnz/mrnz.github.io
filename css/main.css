@@ -451,7 +451,7 @@ nav {
   left: 0px;
   box-sizing: border-box;
   padding: 0 15%;
-  border-bottom: gray 1px solid;
+  border-bottom: 1px solid #d5d5d5;
 }
 
 nav ul, footer ul {
@@ -477,6 +477,7 @@ h1 {
 }
 
 footer {
+    padding: 0 15%;
     border-top: 1px solid #d5d5d5;
     font-size: .8em;
     position: fixed;
@@ -496,6 +497,20 @@ ul.posts li {
     list-style: none;
 }
 
+.linkedin:after{
+    content: "\f0e1";
+    font-family: FontAwesome;
+}
+
+.github:after{
+    content: "\f09b";
+    font-family: FontAwesome;
+}
+
+.email:after{
+    content: "\f003";
+    font-family: FontAwesome;
+}
 
 .hll { background-color: #49483e }
 .c { color: #75715e } /* Comment */
