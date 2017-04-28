@@ -4,8 +4,6 @@ title: "Game of Life"
 date: 2017-03-13
 ---
 
-<link rel="stylesheet" type="text/css" href="/css/game-of-life.css">
-
 <div id="game">
     <table id="grid"></table>
     <div id="info">
@@ -27,7 +25,3 @@ date: 2017-03-13
 </div>
 
 <script type="text/javascript" src="/js/game-of-life.js"></script>
-
-
-
-

@@ -1,0 +1,87 @@
+body {
+    background-color: #EFEEEB;
+    color: #333;
+    min-height: 100%;
+    position: absolute;
+    width: 100%;
+}
+nav {
+  position: fixed;
+  top: 0px;
+  background: #fff;
+  width: 100%;
+  left: 0px;
+  box-sizing: border-box;
+  padding: 0 15%;
+  border-bottom: 1px solid #d5d5d5;
+  z-index: 100;
+}
+
+nav ul, footer ul {
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    padding: 0px;
+    list-style: none;
+    font-weight: bold;
+}
+nav ul li, footer ul li {
+    display: inline;
+    margin-right: 20px;
+}
+a {
+    text-decoration: none;
+    color: #999;
+}
+a:hover {
+    text-decoration: underline;
+}
+h1 {
+    font-size: 3em;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+}
+.container {
+    width: 70%;
+    margin: 65px auto;
+    position: relative;
+}
+
+footer {
+    box-sizing: border-box;
+    padding: 0 15%;
+    border-top: 1px solid #d5d5d5;
+    font-size: .8em;
+    position: absolute;
+    bottom: 0px;
+    background: #fff;
+    width: 100%;
+    left: 0px;
+}
+
+ul.posts {
+    margin: 20px auto 40px;
+    font-size: 1.5em;
+}
+
+ul.posts li {
+    list-style: none;
+}
+
+.linkedin a:before{
+    content: "\f0e1";
+    font-family: FontAwesome;
+    font-size: 18px;
+    padding-right: 8px;
+}
+
+.github a:before{
+    content: "\f09b";
+    font-family: FontAwesome;
+    font-size: 18px;
+    padding-right: 8px;
+}
+
+.email a:before{
+    content: "\f003";
+    font-family: FontAwesome;
+    font-size: 18px;
+    padding-right: 8px;
+}

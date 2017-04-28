@@ -1,3 +1,6 @@
 name: Przemek Marciniak, Front End Dev
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
+sass:
+    style: compressed
+    sass_dir: _sass

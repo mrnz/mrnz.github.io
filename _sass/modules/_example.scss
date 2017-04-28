@@ -1,0 +1,19 @@
+.example {
+	display: block;
+	border: black 1px solid;
+	border-radius: 2px;
+	background-color: #039;
+	color: #eee;
+
+    .example-header{
+        padding: 0px 2%;
+    }
+    
+    .example-body{
+        background: black;
+        padding: 0 2%;
+        margin: 0px;
+        overflow-x: auto;
+    }
+
+}
