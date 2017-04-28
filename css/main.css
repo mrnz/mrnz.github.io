@@ -500,16 +500,22 @@ ul.posts li {
 .linkedin:before{
     content: "\f0e1";
     font-family: FontAwesome;
+    font-size: 18px;
+    padding-right: 8px;
 }
 
 .github:before{
     content: "\f09b";
     font-family: FontAwesome;
+    font-size: 18px;
+    padding-right: 8px;
 }
 
 .email:before{
     content: "\f003";
     font-family: FontAwesome;
+    font-size: 18px;
+    padding-right: 8px;
 }
 
 .hll { background-color: #49483e }
