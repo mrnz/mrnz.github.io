@@ -440,6 +440,8 @@ textarea {
 body {
     margin: 60px auto;
     width: 70%;
+    background-color: #EFEEEB;
+    color: #333;
 }
 nav {
   position: fixed;
@@ -479,8 +481,8 @@ footer {
     font-size: .8em;
 }
 
-ul.posts { 
-    margin: 20px auto 40px; 
+ul.posts {
+    margin: 20px auto 40px;
     font-size: 1.5em;
 }
 
@@ -553,3 +555,15 @@ ul.posts li {
 .gu { color: #75715e; } /* Generic.Subheading & Diff Unified/Comment? */
 .gd { color: #f92672; } /* Generic.Deleted & Diff Deleted */
 .gi { color: #a6e22e; } /* Generic.Inserted & Diff Inserted */
+
+
+/*
+#EFEEEB
+font #333
+font-family: -apple-system, helvetica, sans-serif; color: #333;
+*/
+
+/*
+About This Site
+First and foremost, this site is a resource—for myself and the community. It's also my personal design and code playground, a place to experiment, and therefore, a site that is often in a state of flux.
+*/
