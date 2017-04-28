@@ -497,17 +497,17 @@ ul.posts li {
     list-style: none;
 }
 
-.linkedin:after{
+.linkedin:before{
     content: "\f0e1";
     font-family: FontAwesome;
 }
 
-.github:after{
+.github:before{
     content: "\f09b";
     font-family: FontAwesome;
 }
 
-.email:after{
+.email:before{
     content: "\f003";
     font-family: FontAwesome;
 }
