@@ -1,129 +1,136 @@
-#game {
-    padding: 0;
-    margin: 0;
-    text-align: center;
-    font-family: sans-serif;
-}
-
-#game * {
-    padding: 0;
-    margin: 0;
-}
-#game h1 {
-    margin-top: 10px;
-}
-
-#game table {
-    margin: 0 auto;
-    border-spacing: 0;
-    border-collapse: collapse;
-}
-
-#game td {
-    border: 1px solid gray;
-}
-
 @keyframes birth {
     50% {
         background: red;
     }
 }
 
-#game #grid {
-    margin-top: 5px;
-}
-#game #grid input[type="checkbox"] {
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-    display: block;
-    width: 20px;
-    height: 20px;
-    background: yellow;
-}
-
-#game #grid input[type="checkbox"]:checked {
-    background: black;
-    animation: birth 150ms;
-}
-
-#game div.buttons {
-    margin-top: 5px;
-    margin-bottom: 10px;
-}
-
-#game button#next {
-    background-color: #4CAF50; /* Green */
-    border: none;
-    color: white;
-    padding: 15px 20px;
+#game {
+    padding: 0;
+    margin: 0;
     text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    cursor: pointer;
-    position: relative;
-    overflow: hidden;
-    min-width: 100px;
-}
+    font-family: sans-serif;
+    * {
+        padding: 0;
+        margin: 0;
+    }
 
-#game button#next.next:before {
-    content: "Next";
-}
+    h1 {
+        margin-top: 10px;
+    }
 
-#game button#next.play:before {
-    content: "Play";
-}
+    table {
+        margin: 0 auto;
+        border-spacing: 0;
+        border-collapse: collapse;
+    }
 
-#game button#next.play:after {
-    content: "\2023";
-}
+    td {
+        border: 1px solid gray;
+    }
 
-#game button#next.stop:before {
-    content: "Stop";
-}
-#game button#next.stop:after {
-    content: "\2022";
-}
-#game button#next.play,
-#game button#next.stop {
-    padding-right: 40px
-}
-#game button#next.play:before,
-#game button#next.stop:before {
-    position: relative;
-    left: 20px;
-}
-#game button#next.play:after,
-#game button#next.stop:after {
-    display: block;
-    position: absolute;
-    top: -6px;
-    left: 15px;
-    font-size: 50px;
-    padding-left: 40px;
-}
+    #grid {
+        margin-top: 5px;
 
-#game input {
-    cursor: pointer;
-}
+        input[type="checkbox"] {
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            appearance: none;
+            display: block;
+            width: 20px;
+            height: 20px;
+            background: yellow;
 
-#game #autoplay-label, #game #speed-label {
-    padding: 15px 10px 16px;
-    background-color: #4CAF50;
-    color: white;
-    margin: 0 0 0 5px;
-}
+            &:checked {
+                background: black;
+                animation: birth 150ms;
+            }
 
-#game #speed {
-    top: 4px;
-    position: relative;
+        }
+    }
 
-}
+    .buttons {
+        margin-top: 5px;
+        margin-bottom: 10px;
+    }
 
-#game #info {
-    margin-top: 5px;
-    font-family: monospace;
-    font-size: 12px;
-    text-transform: full-width;
+    #next {
+        background-color: #4CAF50; /* Green */
+        border: none;
+        color: white;
+        padding: 15px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        cursor: pointer;
+        position: relative;
+        overflow: hidden;
+        min-width: 100px;
+
+        &.next:before {
+            content: "Next";
+        }
+
+        &.play:before {
+            content: "Play";
+        }
+
+        &.play:after {
+            content: "\2023";
+        }
+
+        &.stop:after {
+            content: "\2022";
+        }
+
+        &.stop:before {
+            content: "Stop";
+        }
+
+        &.play,
+        &.stop {
+            padding-right: 40px
+        }
+
+        &.play:before,
+        &.stop:before {
+            position: relative;
+            left: 20px;
+        }
+
+        &.play:after,
+        &.stop:after {
+            display: block;
+            position: absolute;
+            top: -6px;
+            left: -17px;
+            font-size: 50px;
+            padding-left: 40px;
+        }
+
+    }
+    input {
+        cursor: pointer;
+    }
+    #autoplay-label,
+    #speed-label {
+        padding: 15px 10px 16px;
+        background-color: #4CAF50;
+        color: white;
+        margin: 0 0 0 5px;
+    }
+
+    #speed {
+        top: 4px;
+        position: relative;
+
+    }
+
+    #info {
+        margin-top: 5px;
+        font-family: monospace;
+        font-size: 12px;
+        text-transform: full-width;
+    }
+
 }

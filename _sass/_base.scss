@@ -1,9 +1,16 @@
+$clr-link: #999;
+$clr-link-hover: #3f3f3f;
+
+$body-clr: #333;
+$body-bg-clr: #EFEEEB;
+
+
 body {
-    background-color: #EFEEEB;
-    color: #333;
-    min-height: 100%;
-    position: absolute;
     width: 100%;
+    position: absolute;
+    min-height: 100%;
+    color: $body-clr;
+    background-color: $body-bg-clr;
 }
 nav {
   position: fixed;
@@ -17,19 +24,25 @@ nav {
   z-index: 100;
 }
 
-nav ul, footer ul {
+nav ul,
+footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
     list-style: none;
     font-weight: bold;
 }
-nav ul li, footer ul li {
+nav ul li,
+footer ul li {
     display: inline;
     margin-right: 20px;
+    a:hover {
+        text-decoration: none;
+        color: $clr-link-hover;
+    }
 }
 a {
     text-decoration: none;
-    color: #999;
+    color: $clr-link;
 }
 a:hover {
     text-decoration: underline;
@@ -56,31 +69,31 @@ footer {
     left: 0px;
 }
 
-ul.posts {
+.posts {
     margin: 20px auto 40px;
     font-size: 1.5em;
+    li {
+        list-style: none;
+    }
 }
 
-ul.posts li {
-    list-style: none;
-}
+
 
 .linkedin a:before{
     content: "\f0e1";
-    font-family: FontAwesome;
-    font-size: 18px;
-    padding-right: 8px;
 }
 
 .github a:before{
     content: "\f09b";
-    font-family: FontAwesome;
-    font-size: 18px;
-    padding-right: 8px;
 }
 
 .email a:before{
     content: "\f003";
+}
+
+.email a:before,
+.github a:before,
+.linkedin a:before {
     font-family: FontAwesome;
     font-size: 18px;
     padding-right: 8px;
